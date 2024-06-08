@@ -22,7 +22,7 @@ Pizza_Types: Represents the types or categories of pizzas available.
 Pizzas: Stores information about individual pizza options, including the pizza ID, name, size, and price.
 
 Sample Data
-Sample data is provided in the insert_data.sql file, which contains SQL INSERT statements to populate the database with sample data. To use the sample data, simply execute the insert_data.sql script in your MySQL database.
+Sample data is provided in the csv files, which contains table values.
 
 SQL Queries
 The project includes SQL queries for basic analysis (e.g., total orders, total revenue), intermediate analysis (e.g., order distribution by hour, top-selling pizza types), and advanced analysis (e.g., revenue contribution by pizza type, cumulative revenue).
