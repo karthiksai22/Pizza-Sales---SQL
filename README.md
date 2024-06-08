@@ -14,9 +14,13 @@ Database Structure
 The database consists of four tables:
 
 Orders: Stores information about each order, including the order ID, customer ID, order date, and total amount.
+
 Order_Details: Contains details of each pizza ordered in an order, including the order detail ID, order ID, pizza ID, quantity, and subtotal.
+
 Pizza_Types: Represents the types or categories of pizzas available.
+
 Pizzas: Stores information about individual pizza options, including the pizza ID, name, size, and price.
+
 Sample Data
 Sample data is provided in the insert_data.sql file, which contains SQL INSERT statements to populate the database with sample data. To use the sample data, simply execute the insert_data.sql script in your MySQL database.
 
